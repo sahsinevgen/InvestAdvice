@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'FuzzyBubbles'; 
+	src: url(../fonts/FuzzyBubbles-Regular.ttf); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    overflow-x: hidden; 
+}
+
+.preview {
+    position: relative;
+    width: 1920px;
+    height: 955px;
+    background: #FFFFFF;
+}
+
+.navigate-bar {
+    position: absolute;
+    width: 1920px;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.navigate-bar .logo {
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    width: 450px;
+    height: 89px;
+    left: 5px;
+    top: 0px;
+    font-family: 'FuzzyBubbles';
+    font-size: 45px;
+    line-height: 52px;
+    color: #ffffff;
+}
+
+.navigate-bar .greetings {
+    position: absolute;
+    user-select: none;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    left: 20%;
+    top: 0px;
+    font-family: 'FuzzyBubbles';
+    font-size: 45px;
+    line-height: 52px;
+    color: #ffffff;
+}
+
+.navigate-bar .login {
+    position: absolute;
+    cursor: pointer;
+    width: 61px;
+    height: 59px;
+    right: 25px;
+    top: 15px;
+}
+
+.navigate-bar .logout {
+    position: absolute;
+    cursor: pointer;
+    width: 70px;
+    height: 59px;
+    right: 25px;
+    top: 15px;
+}
+
+.text-up {
+    position: absolute;
+    width: 757px;
+    height: 162px;
+    left: 1040px;
+    top: 686px;
+    font-family: 'FuzzyBubbles';
+    font-size: 37px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.text-down {
+    position: absolute;
+    width: 757px;
+    height: 98px;
+    left: 90px;
+    top: 288px;
+    font-family: 'FuzzyBubbles';
+    font-size: 37px;
+    line-height: 52px;
+    color: #000000;
+}
